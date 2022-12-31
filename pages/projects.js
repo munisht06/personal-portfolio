@@ -1,9 +1,9 @@
-import web5 from "../public/My Project1.png";
-import web2 from "../public/My Project.png";
-import DCRock from "../public/DC Rock.png";
-import Spotify from "../public/Spotify.png";
-import Social from "../public/TwitterReddit.png";
-import Covid from "../public/Covid.png";
+// import web5 from "../public/My Project1.png";
+// import web2 from "../public/My Project.png";
+// import DCRock from "../public/DC Rock.png";
+// import Spotify from "../public/Spotify.png";
+// import Social from "../public/TwitterReddit.png";
+// import Covid from "../public/Covid.png";
 import Image from "next/image";
 export default function Projects() {
   return (

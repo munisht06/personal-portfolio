@@ -1,7 +1,7 @@
 import { AiFillGithub, AiFillLinkedin, AiFillDev } from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import Image from "next/image";
-import profilePic from "../public/profile.jpg";
+// import profilePic from "../public/profile.jpg";
 
 export default function Hero() {
   return (
