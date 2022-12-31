@@ -15,7 +15,7 @@ export default function Projects() {
         <div className="max-w-sm min-w-sm min-h-full bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
           {/* <div className="  p-10 my-10  dark:bg-white bg-gray-900 flex-1"> */}
           <Image
-            src={"/../public/My Project1.png"}
+            src={"/My Project1.png"}
             className="rounded-t-lg object-cover h-40"
             width={500}
             height={100}
@@ -68,7 +68,7 @@ export default function Projects() {
         <div className="max-w-sm min-w-sm min-h-full bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
           {/* <div className="dark:bg-white bg-gray-900 flex-1"> */}
           <Image
-            src={"/../public/My Project.png"}
+            src={"/My Project.png"}
             className="rounded-t-lg object-cover h-40"
             width={500}
             height={100}
@@ -112,7 +112,7 @@ export default function Projects() {
         <div className="max-w-sm min-w-sm min-h-full bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
           {/* <div className="dark:bg-white bg-gray-900 flex-1"> */}
           <Image
-            src={"/../public/DC Rock.png"}
+            src={"/DC Rock.png"}
             className="rounded-t-lg object-cover h-40"
             width={500}
             height={100}
@@ -148,7 +148,7 @@ export default function Projects() {
         <div className="max-w-sm min-w-sm min-h-full bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
           {/* <div className="dark:bg-white bg-gray-900 flex-1"> */}
           <Image
-            src={"/../public/Spotify.png"}
+            src={"/Spotify.png"}
             className="rounded-t-lg object-cover h-40"
             width={500}
             height={100}
@@ -184,7 +184,7 @@ export default function Projects() {
         <div className="max-w-sm min-w-sm min-h-full bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
           {/* <div className="dark:bg-white bg-gray-900 flex-1"> */}
           <Image
-            src={"/../public/TwitterReddit.png"}
+            src={"/TwitterReddit.png"}
             className="rounded-t-lg object-cover h-40"
             width={500}
             height={100}
@@ -220,7 +220,7 @@ export default function Projects() {
         <div className="max-w-sm min-w-sm min-h-full bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
           {/* <div className="dark:bg-white bg-gray-900 flex-1"> */}
           <Image
-            src={"/../public/Covid.png"}
+            src={"/Covid.png"}
             className="rounded-t-lg object-cover h-40"
             width={500}
             height={100}

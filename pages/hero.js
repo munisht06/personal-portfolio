@@ -43,7 +43,7 @@ export default function Hero() {
 
         <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80  overflow-hidden md:h-96 md:w-96">
           <Image
-            src={"/../public/profile.jpg"}
+            src={"/profile.jpg"}
             className=" object-cover"
             fill
             alt="Picture of Munish"
