@@ -15,10 +15,10 @@ export default function Projects() {
         <div className="max-w-sm min-w-sm min-h-full bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
           {/* <div className="  p-10 my-10  dark:bg-white bg-gray-900 flex-1"> */}
           <Image
-            src={web5}
+            src={"/../public/My Project1.png"}
             className="rounded-t-lg object-cover h-40"
-            width={"100%"}
-            height={"100%"}
+            width={500}
+            height={100}
             alt="Project 1"
             responsive
           />
@@ -68,10 +68,10 @@ export default function Projects() {
         <div className="max-w-sm min-w-sm min-h-full bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
           {/* <div className="dark:bg-white bg-gray-900 flex-1"> */}
           <Image
-            src={web2}
+            src={"/../public/My Project.png"}
             className="rounded-t-lg object-cover h-40"
-            width={"75%"}
-            height={"100%"}
+            width={500}
+            height={100}
             responsive
             alt="Project 2"
           />
@@ -112,12 +112,12 @@ export default function Projects() {
         <div className="max-w-sm min-w-sm min-h-full bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
           {/* <div className="dark:bg-white bg-gray-900 flex-1"> */}
           <Image
-            src={DCRock}
+            src={"/../public/DC Rock.png"}
             className="rounded-t-lg object-cover h-40"
-            width={"75%"}
-            height={"100%"}
-            alt="Project 3"
+            width={500}
+            height={100}
             responsive
+            alt="Project 3"
           />
           {/* </div> */}
           <div className="flex flex-col items-center p-10">
@@ -148,12 +148,12 @@ export default function Projects() {
         <div className="max-w-sm min-w-sm min-h-full bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
           {/* <div className="dark:bg-white bg-gray-900 flex-1"> */}
           <Image
-            src={Spotify}
+            src={"/../public/Spotify.png"}
             className="rounded-t-lg object-cover h-40"
-            width={"75%"}
-            height={"100%"}
-            alt="Project 4"
+            width={500}
+            height={100}
             responsive
+            alt="Project 4"
           />
           {/* </div> */}
           <div className="flex flex-col items-center p-10">
@@ -184,10 +184,10 @@ export default function Projects() {
         <div className="max-w-sm min-w-sm min-h-full bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
           {/* <div className="dark:bg-white bg-gray-900 flex-1"> */}
           <Image
-            src={Social}
+            src={"/../public/TwitterReddit.png"}
             className="rounded-t-lg object-cover h-40"
-            width={"75%"}
-            height={"100%"}
+            width={500}
+            height={100}
             alt="Project 5"
             responsive
           />
@@ -220,12 +220,12 @@ export default function Projects() {
         <div className="max-w-sm min-w-sm min-h-full bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
           {/* <div className="dark:bg-white bg-gray-900 flex-1"> */}
           <Image
-            src={Covid}
+            src={"/../public/Covid.png"}
             className="rounded-t-lg object-cover h-40"
-            width={"75%"}
-            height={"100%"}
-            alt="Project 6"
+            width={500}
+            height={100}
             responsive
+            alt="Project 6"
           />
           {/* </div> */}
           <div className="flex flex-col items-center p-10">
