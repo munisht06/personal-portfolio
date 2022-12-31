@@ -38,6 +38,7 @@ export default function Projects() {
               <a
                 href="https://github.com/Vishvak365/Fantasy-Finance-Backend"
                 target={"_blank"}
+                rel="noopener noreferrer"
                 className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white dark:text-gray-900 bg-teal-500 rounded-lg hover:bg-teal-600 focus:ring-4 focus:outline-none focus:ring-teal-300 dark:bg-teal-500 dark:hover:bg-teal-600 dark:focus:ring-teal-800"
               >
                 Backend
@@ -45,6 +46,7 @@ export default function Projects() {
               <a
                 href=" https://github.com/Vishvak365/Fantasy-Finance-Frontend"
                 target={"_blank"}
+                rel="noopener noreferrer"
                 className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white dark:text-gray-900 bg-teal-500 rounded-lg hover:bg-teal-600 focus:ring-4 focus:outline-none focus:ring-teal-300 dark:bg-teal-500 dark:hover:bg-teal-600 dark:focus:ring-teal-800"
               >
                 Frontend
@@ -52,6 +54,7 @@ export default function Projects() {
               <a
                 href="https://fantasyfinance.vishvak.com/"
                 target={"_blank"}
+                rel="noopener noreferrer"
                 className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white dark:text-gray-900 bg-teal-500 rounded-lg hover:bg-teal-600 focus:ring-4 focus:outline-none focus:ring-teal-300 dark:bg-teal-500 dark:hover:bg-teal-600 dark:focus:ring-teal-800"
               >
                 Website
@@ -87,6 +90,7 @@ export default function Projects() {
               <a
                 href=" https://github.com/wurew34/Gator-SubleasingSESPR22"
                 target={"_blank"}
+                rel="noopener noreferrer"
                 className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white dark:text-gray-900 bg-teal-500 rounded-lg hover:bg-teal-600 focus:ring-4 focus:outline-none focus:ring-teal-300 dark:bg-teal-500 dark:hover:bg-teal-600 dark:focus:ring-teal-800"
               >
                 Github
@@ -94,6 +98,7 @@ export default function Projects() {
               <a
                 href="https://gatorsublease.mtanwar.com/"
                 target={"_blank"}
+                rel="noopener noreferrer"
                 className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white dark:text-gray-900 bg-teal-500 rounded-lg hover:bg-teal-600 focus:ring-4 focus:outline-none focus:ring-teal-300 dark:bg-teal-500 dark:hover:bg-teal-600 dark:focus:ring-teal-800"
               >
                 Website
@@ -128,6 +133,7 @@ export default function Projects() {
               <a
                 href="https://gitlab.com/run-escape/dc-rock-fitness-app"
                 target={"_blank"}
+                rel="noopener noreferrer"
                 className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white dark:text-gray-900 bg-teal-500 rounded-lg hover:bg-teal-600 focus:ring-4 focus:outline-none focus:ring-teal-300 dark:bg-teal-500 dark:hover:bg-teal-600 dark:focus:ring-teal-800"
               >
                 GitLab
@@ -162,6 +168,7 @@ export default function Projects() {
               <a
                 href="https://github.com/munisht06/Spotify-Song-Recommendation"
                 target={"_blank"}
+                rel="noopener noreferrer"
                 className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white dark:text-gray-900 bg-teal-500 rounded-lg hover:bg-teal-600 focus:ring-4 focus:outline-none focus:ring-teal-300 dark:bg-teal-500 dark:hover:bg-teal-600 dark:focus:ring-teal-800"
               >
                 Github
@@ -196,6 +203,7 @@ export default function Projects() {
               <a
                 href="https://github.com/Vishvak365/NLP-Tweet-Analysis"
                 target={"_blank"}
+                rel="noopener noreferrer"
                 className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white dark:text-gray-900 bg-teal-500 rounded-lg hover:bg-teal-600 focus:ring-4 focus:outline-none focus:ring-teal-300 dark:bg-teal-500 dark:hover:bg-teal-600 dark:focus:ring-teal-800"
               >
                 Github
@@ -231,6 +239,7 @@ export default function Projects() {
               <a
                 href=" https://github.com/wurew34/Gator-SubleasingSESPR22"
                 target={"_blank"}
+                rel="noopener noreferrer"
                 className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white dark:text-gray-900 bg-teal-500 rounded-lg hover:bg-teal-600 focus:ring-4 focus:outline-none focus:ring-teal-300 dark:bg-teal-500 dark:hover:bg-teal-600 dark:focus:ring-teal-800"
               >
                 Github
