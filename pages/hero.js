@@ -11,7 +11,7 @@ export default function Hero() {
         <div className="text-center p-10 md:p-20">
           <h2 className="text-5xl py-2 text-gray-800 font-medium dark:text-gray-200 md:text-6xl">
             {" "}
-            Hi I'm <span className="text-5xl py-2 text-teal-500 font-medium dark:text-teal-400 md:text-6xl">Munish Tanwar</span>
+            Hi I&apos;m <span className="text-5xl py-2 text-teal-500 font-medium dark:text-teal-400 md:text-6xl">Munish Tanwar</span>
           </h2>
           <h3 className="text-2xl py-2 md:text-3xl dark:text-white ">
             Graduate CS Student
