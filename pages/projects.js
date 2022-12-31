@@ -19,6 +19,7 @@ export default function Projects() {
             className="rounded-t-lg object-cover h-40"
             width={"100%"}
             height={"100%"}
+            alt="Project 1"
             responsive
           />
           {/* </div> */}
@@ -72,6 +73,7 @@ export default function Projects() {
             width={"75%"}
             height={"100%"}
             responsive
+            alt="Project 2"
           />
           {/* </div> */}
           <div className="flex flex-col items-center p-10">
@@ -114,6 +116,7 @@ export default function Projects() {
             className="rounded-t-lg object-cover h-40"
             width={"75%"}
             height={"100%"}
+            alt="Project 3"
             responsive
           />
           {/* </div> */}
@@ -149,6 +152,7 @@ export default function Projects() {
             className="rounded-t-lg object-cover h-40"
             width={"75%"}
             height={"100%"}
+            alt="Project 4"
             responsive
           />
           {/* </div> */}
@@ -184,6 +188,7 @@ export default function Projects() {
             className="rounded-t-lg object-cover h-40"
             width={"75%"}
             height={"100%"}
+            alt="Project 5"
             responsive
           />
           {/* </div> */}
@@ -219,6 +224,7 @@ export default function Projects() {
             className="rounded-t-lg object-cover h-40"
             width={"75%"}
             height={"100%"}
+            alt="Project 6"
             responsive
           />
           {/* </div> */}
