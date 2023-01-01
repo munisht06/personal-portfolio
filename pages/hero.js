@@ -1,7 +1,7 @@
 import { AiFillGithub, AiFillLinkedin, AiFillDev } from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import Image from "next/image";
-// import profilePic from "../public/profile.jpg";
+import profilePic from "./../public/munish.jpg";
 
 export default function Hero() {
   return (
@@ -11,10 +11,7 @@ export default function Hero() {
         <div className="text-center p-10 md:p-20">
           <h2 className="text-5xl py-2 text-gray-800 font-medium dark:text-gray-200 md:text-6xl">
             {" "}
-            Hi I&apos;m{" "}
-            <span className="text-5xl py-2 text-teal-500 font-medium dark:text-teal-400 md:text-6xl">
-              Munish Tanwar
-            </span>
+            Hi I&apos;m <span className="text-5xl py-2 text-teal-500 font-medium dark:text-teal-400 md:text-6xl">Munish Tanwar</span>
           </h2>
           <h3 className="text-2xl py-2 md:text-3xl dark:text-white ">
             Graduate CS Student
@@ -42,12 +39,7 @@ export default function Hero() {
         </div>
 
         <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80  overflow-hidden md:h-96 md:w-96">
-          <Image
-            src={"/profile.jpg"}
-            className=" object-cover"
-            fill
-            alt="Picture of Munish"
-          />
+          <Image src={profilePic} objectFit="cover" fill alt="Munish" />
         </div>
       </div>
     </>

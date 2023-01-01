@@ -1,9 +1,9 @@
-// import web5 from "../public/My Project1.png";
-// import web2 from "../public/My Project.png";
-// import DCRock from "../public/DC Rock.png";
-// import Spotify from "../public/Spotify.png";
-// import Social from "../public/TwitterReddit.png";
-// import Covid from "../public/Covid.png";
+import web5 from "./../public/project1.png";
+import web2 from "./../public/project2.png";
+import DCRock from "./../public/project3.png";
+import Spotify from "./../public/project4.png";
+import Social from "./../public/project5.png";
+import Covid from "./../public/project6.png";
 import Image from "next/image";
 export default function Projects() {
   return (
@@ -15,12 +15,12 @@ export default function Projects() {
         <div className="max-w-sm min-w-sm min-h-full bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
           {/* <div className="  p-10 my-10  dark:bg-white bg-gray-900 flex-1"> */}
           <Image
-            src={"/My Project1.png"}
+            src={web5}
             className="rounded-t-lg object-cover h-40"
-            width={500}
-            height={100}
-            alt="Project 1"
+            width={"100%"}
+            height={"100%"}
             responsive
+            alt="Project 1"
           />
           {/* </div> */}
           <div className="flex flex-col items-center p-10">
@@ -38,24 +38,21 @@ export default function Projects() {
             <div className=" flex mt-4 space-x-3 md:mt-6">
               <a
                 href="https://github.com/Vishvak365/Fantasy-Finance-Backend"
-                target={"_blank"}
-                rel="noopener noreferrer"
+                target={"_blank"} rel="noreferrer"
                 className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white dark:text-gray-900 bg-teal-500 rounded-lg hover:bg-teal-600 focus:ring-4 focus:outline-none focus:ring-teal-300 dark:bg-teal-500 dark:hover:bg-teal-600 dark:focus:ring-teal-800"
               >
                 Backend
               </a>
               <a
                 href=" https://github.com/Vishvak365/Fantasy-Finance-Frontend"
-                target={"_blank"}
-                rel="noopener noreferrer"
+                target={"_blank"} rel="noreferrer"
                 className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white dark:text-gray-900 bg-teal-500 rounded-lg hover:bg-teal-600 focus:ring-4 focus:outline-none focus:ring-teal-300 dark:bg-teal-500 dark:hover:bg-teal-600 dark:focus:ring-teal-800"
               >
                 Frontend
               </a>
               <a
                 href="https://fantasyfinance.vishvak.com/"
-                target={"_blank"}
-                rel="noopener noreferrer"
+                target={"_blank"} rel="noreferrer"
                 className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white dark:text-gray-900 bg-teal-500 rounded-lg hover:bg-teal-600 focus:ring-4 focus:outline-none focus:ring-teal-300 dark:bg-teal-500 dark:hover:bg-teal-600 dark:focus:ring-teal-800"
               >
                 Website
@@ -68,10 +65,10 @@ export default function Projects() {
         <div className="max-w-sm min-w-sm min-h-full bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
           {/* <div className="dark:bg-white bg-gray-900 flex-1"> */}
           <Image
-            src={"/My Project.png"}
+            src={web2}
             className="rounded-t-lg object-cover h-40"
-            width={500}
-            height={100}
+            width={"75%"}
+            height={"100%"}
             responsive
             alt="Project 2"
           />
@@ -91,16 +88,14 @@ export default function Projects() {
             <div className=" flex mt-4 space-x-3 md:mt-6">
               <a
                 href=" https://github.com/wurew34/Gator-SubleasingSESPR22"
-                target={"_blank"}
-                rel="noopener noreferrer"
+                target={"_blank"} rel="noreferrer"
                 className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white dark:text-gray-900 bg-teal-500 rounded-lg hover:bg-teal-600 focus:ring-4 focus:outline-none focus:ring-teal-300 dark:bg-teal-500 dark:hover:bg-teal-600 dark:focus:ring-teal-800"
               >
                 Github
               </a>
               <a
                 href="https://gatorsublease.mtanwar.com/"
-                target={"_blank"}
-                rel="noopener noreferrer"
+                target={"_blank"} rel="noreferrer"
                 className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white dark:text-gray-900 bg-teal-500 rounded-lg hover:bg-teal-600 focus:ring-4 focus:outline-none focus:ring-teal-300 dark:bg-teal-500 dark:hover:bg-teal-600 dark:focus:ring-teal-800"
               >
                 Website
@@ -112,10 +107,10 @@ export default function Projects() {
         <div className="max-w-sm min-w-sm min-h-full bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
           {/* <div className="dark:bg-white bg-gray-900 flex-1"> */}
           <Image
-            src={"/DC Rock.png"}
+            src={DCRock}
             className="rounded-t-lg object-cover h-40"
-            width={500}
-            height={100}
+            width={"75%"}
+            height={"100%"}
             responsive
             alt="Project 3"
           />
@@ -135,8 +130,7 @@ export default function Projects() {
             <div className=" flex mt-4 space-x-3 md:mt-6">
               <a
                 href="https://gitlab.com/run-escape/dc-rock-fitness-app"
-                target={"_blank"}
-                rel="noopener noreferrer"
+                target={"_blank"} rel="noreferrer"
                 className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white dark:text-gray-900 bg-teal-500 rounded-lg hover:bg-teal-600 focus:ring-4 focus:outline-none focus:ring-teal-300 dark:bg-teal-500 dark:hover:bg-teal-600 dark:focus:ring-teal-800"
               >
                 GitLab
@@ -148,10 +142,10 @@ export default function Projects() {
         <div className="max-w-sm min-w-sm min-h-full bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
           {/* <div className="dark:bg-white bg-gray-900 flex-1"> */}
           <Image
-            src={"/Spotify.png"}
+            src={Spotify}
             className="rounded-t-lg object-cover h-40"
-            width={500}
-            height={100}
+            width={"75%"}
+            height={"100%"}
             responsive
             alt="Project 4"
           />
@@ -171,8 +165,7 @@ export default function Projects() {
             <div className=" flex mt-4 space-x-3 md:mt-6">
               <a
                 href="https://github.com/munisht06/Spotify-Song-Recommendation"
-                target={"_blank"}
-                rel="noopener noreferrer"
+                target={"_blank"} rel="noreferrer"
                 className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white dark:text-gray-900 bg-teal-500 rounded-lg hover:bg-teal-600 focus:ring-4 focus:outline-none focus:ring-teal-300 dark:bg-teal-500 dark:hover:bg-teal-600 dark:focus:ring-teal-800"
               >
                 Github
@@ -184,12 +177,12 @@ export default function Projects() {
         <div className="max-w-sm min-w-sm min-h-full bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
           {/* <div className="dark:bg-white bg-gray-900 flex-1"> */}
           <Image
-            src={"/TwitterReddit.png"}
+            src={Social}
             className="rounded-t-lg object-cover h-40"
-            width={500}
-            height={100}
-            alt="Project 5"
+            width={"75%"}
+            height={"100%"}
             responsive
+            alt="Project 5"
           />
           {/* </div> */}
           <div className="flex flex-col items-center p-10">
@@ -207,8 +200,7 @@ export default function Projects() {
             <div className=" flex mt-4 space-x-3 md:mt-6">
               <a
                 href="https://github.com/Vishvak365/NLP-Tweet-Analysis"
-                target={"_blank"}
-                rel="noopener noreferrer"
+                target={"_blank"} rel="noreferrer"
                 className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white dark:text-gray-900 bg-teal-500 rounded-lg hover:bg-teal-600 focus:ring-4 focus:outline-none focus:ring-teal-300 dark:bg-teal-500 dark:hover:bg-teal-600 dark:focus:ring-teal-800"
               >
                 Github
@@ -220,10 +212,10 @@ export default function Projects() {
         <div className="max-w-sm min-w-sm min-h-full bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
           {/* <div className="dark:bg-white bg-gray-900 flex-1"> */}
           <Image
-            src={"/Covid.png"}
+            src={Covid}
             className="rounded-t-lg object-cover h-40"
-            width={500}
-            height={100}
+            width={"75%"}
+            height={"100%"}
             responsive
             alt="Project 6"
           />
@@ -244,8 +236,7 @@ export default function Projects() {
             <div className=" flex mt-4 space-x-3 md:mt-6">
               <a
                 href=" https://github.com/wurew34/Gator-SubleasingSESPR22"
-                target={"_blank"}
-                rel="noopener noreferrer"
+                target={"_blank"} rel="noreferrer"
                 className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white dark:text-gray-900 bg-teal-500 rounded-lg hover:bg-teal-600 focus:ring-4 focus:outline-none focus:ring-teal-300 dark:bg-teal-500 dark:hover:bg-teal-600 dark:focus:ring-teal-800"
               >
                 Github

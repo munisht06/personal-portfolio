@@ -39,7 +39,7 @@ export default function Contact() {
             <p className=" font-normal text-center text-blue-700 dark:text-blue-400 underline">
               <a
                 href="https://www.linkedin.com/in/munishtanwar/"
-                target={"_blank"}  rel="noopener noreferrer"
+                target={"_blank"} rel="noreferrer"
               >
                 munishtanwar
               </a>

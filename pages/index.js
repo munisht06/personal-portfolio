@@ -38,7 +38,7 @@ export default function Home() {
                 <a
                   className=" bg-gradient-to-r  from-teal-400 to-teal-500 hover:bg-gradient-to-l font-medium text-white dark:text-gray-900 px-4 py-2 rounded-md ml-8"
                   href="Munish_Tanwar_Resume.pdf"
-                  target={"_blank"}  rel="noopener noreferrer"
+                  target={"_blank"} rel="noreferrer"
                 >
                   Resume
                 </a>
