@@ -6,6 +6,7 @@ import Projects from "./projects.js";
 import Contact from "./contact.js";
 import Footer from "./footer.js";
 import { BsFillMoonStarsFill } from "react-icons/bs";
+import { BsFillSunFill } from "react-icons/bs";
 
 import { useState } from "react";
 
@@ -29,16 +30,20 @@ export default function Home() {
             <h1 className="text-3xl font-burtons dark:text-white ">MT</h1>
             <ul className="flex items-center">
               <li>
-                <BsFillMoonStarsFill
-                  className=" cursor-pointer text-2xl"
-                  onClick={() => setDarkMode(!darkMode)}
-                />
+                <div onClick={() => setDarkMode(!darkMode)}>
+                  {!darkMode ? (
+                    <BsFillSunFill className=" cursor-pointer text-2xl" />
+                  ) : (
+                    <BsFillMoonStarsFill className=" cursor-pointer text-2xl" />
+                  )}
+                </div>
               </li>
               <li>
                 <a
                   className=" bg-gradient-to-r  from-teal-400 to-teal-500 hover:bg-gradient-to-l font-medium text-white dark:text-gray-900 px-4 py-2 rounded-md ml-8"
                   href="Munish_Tanwar_Resume.pdf"
-                  target={"_blank"} rel="noreferrer"
+                  target={"_blank"}
+                  rel="noreferrer"
                 >
                   Resume
                 </a>
