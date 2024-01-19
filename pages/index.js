@@ -31,7 +31,7 @@ export default function Home() {
             <ul className="flex items-center">
               <li>
                 <div onClick={() => setDarkMode(!darkMode)}>
-                  {!darkMode ? (
+                  {darkMode ? (
                     <BsFillSunFill className=" cursor-pointer text-2xl" />
                   ) : (
                     <BsFillMoonStarsFill className=" cursor-pointer text-2xl" />
