@@ -20,7 +20,7 @@ export default function Hero() {
             Graduate CS Student and Developer
           </h3>
           <p className="text-md py-5 leading-8 text-gray-800 md:text-xl  dark:text-gray-200 max-w-lg mx-auto">
-            I'm a recent Computer Science graduate from the University of
+            I&apos;m a recent Computer Science graduate from the University of
             Florida, skilled in full-stack development. Passionate about
             creating scalable, user-friendly products. Actively seeking
             full-time Software Engineer opportunities
