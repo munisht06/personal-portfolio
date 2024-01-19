@@ -13,6 +13,9 @@ function Skills() {
           <li className="flex flex-col justify-center text-center align-middle m-4 dark:text-white hover:scale-110">
             <Icon icon="logos:javascript" inline="false" width="90px" height="90px" /> JavaScript
           </li>
+          <li className="flex flex-col justify-center text-center align-middle m-4 dark:text-white hover:scale-110">
+            <Icon icon="vscode-icons:file-type-typescript" inline="false" width="90px" height="90px" /> Typescript
+          </li>
 
           <li className="flex flex-col justify-center text-center align-middle m-4 dark:text-white hover:scale-110">
             <Icon icon="logos:python" inline="false" width="90px" height="90px" /> Python
@@ -58,6 +61,9 @@ function Skills() {
           </li>
           <li className="flex flex-col justify-center text-center align-middle m-4 dark:text-white hover:scale-110">
             <Icon icon="logos:docker-icon" inline="false" width="90px" height="90px" /> Docker
+          </li>
+          <li className="flex flex-col justify-center text-center align-middle m-4 dark:text-white hover:scale-110">
+            <Icon icon="logos:microsoft-azure" inline="false" width="90px" height="90px" /> Azure
           </li>
           <li className="flex flex-col justify-center text-center align-middle m-4  dark:text-white hover:scale-110">
             <div className="bg-white rounded p-2">
