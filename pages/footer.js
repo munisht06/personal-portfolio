@@ -5,7 +5,7 @@ export default function Footer() {
         <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <div class="sm:flex sm:items-center sm:justify-between">
           <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
-            © 2023{" "}
+            © 2024{" "}
             <a href="https://mtanwar.com/" class="hover:underline">
               Munish Tanwar
             </a>
