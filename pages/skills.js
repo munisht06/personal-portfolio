@@ -16,12 +16,16 @@ function Skills() {
           <li className="flex flex-col justify-center text-center align-middle m-4 dark:text-white hover:scale-110">
             <Icon icon="vscode-icons:file-type-typescript" inline="false" width="90px" height="90px" /> Typescript
           </li>
+          
 
           <li className="flex flex-col justify-center text-center align-middle m-4 dark:text-white hover:scale-110">
             <Icon icon="logos:python" inline="false" width="90px" height="90px" /> Python
           </li>
           <li className="flex flex-col justify-center text-center align-middle m-4 dark:text-white hover:scale-110">
             <Icon icon="logos:java" inline="false" width="90px" height="90px" /> Java
+          </li>
+          <li className="flex flex-col justify-center text-center align-middle m-4 dark:text-white hover:scale-110">
+            <Icon icon="logos:dotnet" inline="false" width="90px" height="90px" /> .NET
           </li>
           <li className="flex flex-col justify-center text-center align-middle m-4 dark:text-white hover:scale-110">
             <Icon icon="logos:go" inline="false" width="90px" height="90px" /> Go

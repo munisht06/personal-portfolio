@@ -50,13 +50,13 @@ export default function Projects() {
               >
                 Frontend
               </a>
-              <a
+              {/* <a
                 href="https://fantasyfinance.vishvak.com/"
                 target={"_blank"} rel="noreferrer"
                 className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white dark:text-gray-900 bg-teal-500 rounded-lg hover:bg-teal-600 focus:ring-4 focus:outline-none focus:ring-teal-300 dark:bg-teal-500 dark:hover:bg-teal-600 dark:focus:ring-teal-800"
               >
                 Website
-              </a>
+              </a> */}
             </div>
             {/* </div> */}
           </div>
@@ -93,13 +93,13 @@ export default function Projects() {
               >
                 Github
               </a>
-              <a
+              {/* <a
                 href="https://gatorsublease.mtanwar.com/"
                 target={"_blank"} rel="noreferrer"
                 className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white dark:text-gray-900 bg-teal-500 rounded-lg hover:bg-teal-600 focus:ring-4 focus:outline-none focus:ring-teal-300 dark:bg-teal-500 dark:hover:bg-teal-600 dark:focus:ring-teal-800"
               >
                 Website
-              </a>
+              </a> */}
             </div>
             {/* </div> */}
           </div>
