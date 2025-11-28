@@ -8,11 +8,12 @@ export default function Skills() {
       skills: [
         { name: ".NET Core", icon: "logos:dotnet" },
         { name: "C#", icon: "logos:c-sharp" },
-        { name: "MS SQL Server", icon: "logos:microsoft-sql-server" },
         { name: "Java", icon: "logos:java" },
         { name: "Python", icon: "logos:python" },
         { name: "Node.js", icon: "logos:nodejs-icon" },
-        { name: "Go", icon: "logos:go" },
+        { name: "Go", icon: "devicon:go" },
+        { name: "Azure SQL", icon: "devicon:azuresqldatabase" }, // Using Azure icon as generic Azure SQL
+        { name: "Cosmos DB", icon: "devicon:cosmosdb" },
         { name: "PostgreSQL", icon: "logos:postgresql" },
         { name: "MongoDB", icon: "logos:mongodb-icon" },
       ],
@@ -21,12 +22,13 @@ export default function Skills() {
       title: "Cloud & DevOps",
       skills: [
         { name: "Azure", icon: "logos:microsoft-azure" },
-        { name: "Azure SQL", icon: "logos:azure-icon" }, // Using Azure icon as generic Azure SQL
-        { name: "Cosmos DB", icon: "logos:azure-cosmos-db" },
+
         { name: "AWS", icon: "logos:aws" },
         { name: "Docker", icon: "logos:docker-icon" },
         { name: "Kubernetes", icon: "logos:kubernetes" },
         { name: "Terraform", icon: "logos:terraform-icon" },
+        { name: "Azure DevOps", icon: "devicon:azuredevops" },
+
         { name: "GitHub Actions", icon: "logos:github-actions" },
       ],
     },
@@ -73,7 +75,7 @@ export default function Skills() {
             <h4 className="text-xl md:text-2xl font-bold text-gray-700 dark:text-gray-300 mb-6 border-l-4 border-teal-500 pl-4">
               {category.title}
             </h4>
-            
+
             <div className="flex flex-wrap gap-6">
               {category.skills.map((skill, skillIndex) => (
                 <div
@@ -81,8 +83,8 @@ export default function Skills() {
                   className="group flex flex-col items-center justify-center p-4 w-28 h-28 md:w-32 md:h-32 bg-white dark:bg-gray-800 rounded-xl shadow-md border border-gray-100 dark:border-gray-700 hover:border-teal-500 dark:hover:border-teal-500 hover:shadow-lg hover:-translate-y-1 transition-all duration-300 cursor-default"
                 >
                   <div className="text-4xl md:text-5xl mb-3 grayscale group-hover:grayscale-0 transition-all duration-300">
-                    <Icon 
-                      icon={skill.icon} 
+                    <Icon
+                      icon={skill.icon}
                       color={skill.color || undefined}
                     />
                   </div>
