@@ -261,6 +261,74 @@ export default function Projects() {
           </div>
         </div>
       </div>
+
+      {/* Research Publications Section */}
+      <div className="py-10 md:py-20">
+        <h3 className="text-3xl dark:text-white">Research Publications</h3>
+        <p className="text-md py-3 text-gray-700 dark:text-gray-400">
+          Academic research in machine learning and data science from graduate studies at University of Florida
+        </p>
+      </div>
+
+      <div className="flex flex-wrap gap-10 justify-center max-w-1 relative">
+        <div className="max-w-sm min-w-sm min-h-full bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+          <div className="flex flex-col items-center p-10">
+            <h3 className="mb-2 text-2xl font-bold tracking-tight text-center text-gray-900 dark:text-white">
+              Generative AI Model Analysis
+            </h3>
+            <p className="mb-3 font-normal text-center text-gray-700 dark:text-gray-400">
+              Comparative study of GANs and VAEs on MNIST dataset. Designed and trained models from
+              scratch using TensorFlow, implementing batch normalization and custom loss functions.
+              Achieved optimal performance with VAE using 4D latent space and regularization.
+            </p>
+            <div className="flex flex-wrap justify-center gap-2 mb-3">
+              <span className="px-2 py-1 text-xs bg-teal-100 dark:bg-teal-900 text-teal-800 dark:text-teal-200 rounded">Python</span>
+              <span className="px-2 py-1 text-xs bg-teal-100 dark:bg-teal-900 text-teal-800 dark:text-teal-200 rounded">TensorFlow</span>
+              <span className="px-2 py-1 text-xs bg-teal-100 dark:bg-teal-900 text-teal-800 dark:text-teal-200 rounded">GANs</span>
+              <span className="px-2 py-1 text-xs bg-teal-100 dark:bg-teal-900 text-teal-800 dark:text-teal-200 rounded">VAEs</span>
+            </div>
+            <div className="flex mt-4 space-x-3 md:mt-6">
+              <a
+                href="/GAN_VAE_Analysis.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white dark:text-gray-900 bg-teal-500 rounded-lg hover:bg-teal-600 focus:ring-4 focus:outline-none focus:ring-teal-300"
+              >
+                Read Paper
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="max-w-sm min-w-sm min-h-full bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+          <div className="flex flex-col items-center p-10">
+            <h3 className="mb-2 text-2xl font-bold tracking-tight text-center text-gray-900 dark:text-white">
+              Environmental Impact on Vegetation
+            </h3>
+            <p className="mb-3 font-normal text-center text-gray-700 dark:text-gray-400">
+              Decision tree regression model analyzing relationships between NDVI, land temperature,
+              and rainfall using global geospatial data. Achieved R² of 0.64 and identified seasonal
+              patterns in environmental factors affecting vegetation health.
+            </p>
+            <div className="flex flex-wrap justify-center gap-2 mb-3">
+              <span className="px-2 py-1 text-xs bg-teal-100 dark:bg-teal-900 text-teal-800 dark:text-teal-200 rounded">Python</span>
+              <span className="px-2 py-1 text-xs bg-teal-100 dark:bg-teal-900 text-teal-800 dark:text-teal-200 rounded">Decision Trees</span>
+              <span className="px-2 py-1 text-xs bg-teal-100 dark:bg-teal-900 text-teal-800 dark:text-teal-200 rounded">Geospatial Analysis</span>
+              <span className="px-2 py-1 text-xs bg-teal-100 dark:bg-teal-900 text-teal-800 dark:text-teal-200 rounded">Remote Sensing</span>
+            </div>
+            <div className="flex mt-4 space-x-3 md:mt-6">
+              <a
+                href="/Vegetation_Analysis.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white dark:text-gray-900 bg-teal-500 rounded-lg hover:bg-teal-600 focus:ring-4 focus:outline-none focus:ring-teal-300"
+              >
+                Read Paper
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 }

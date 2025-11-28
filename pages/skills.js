@@ -83,6 +83,15 @@ function Skills() {
           <li className="flex flex-col justify-center text-center align-middle m-4 dark:text-white hover:scale-110">
             <Icon icon="logos:postgresql" inline="false" width="90px" height="90px" /> PostgreSQL
           </li>
+          <li className="flex flex-col justify-center text-center align-middle m-4 dark:text-white hover:scale-110">
+            <Icon icon="simple-icons:scikitlearn" inline="false" width="90px" height="90px" color="#F7931E" /> Scikit-learn
+          </li>
+          <li className="flex flex-col justify-center text-center align-middle m-4 dark:text-white hover:scale-110">
+            <Icon icon="simple-icons:pandas" inline="false" width="90px" height="90px" color="#150458" /> Pandas
+          </li>
+          <li className="flex flex-col justify-center text-center align-middle m-4 dark:text-white hover:scale-110">
+            <Icon icon="logos:numpy" inline="false" width="90px" height="90px" /> NumPy
+          </li>
         </ui>
       </div>
     </>

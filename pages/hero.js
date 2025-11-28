@@ -18,8 +18,9 @@ export default function Hero() {
           </h3>
           <p className="text-md py-5 leading-8 text-gray-800 md:text-xl dark:text-gray-200 max-w-lg mx-auto">
             Software Engineer at Publix with 2.5 years building distributed systems and event-driven architectures.
-            I specialize in React, TypeScript, Azure Functions, and .NET—delivering 30% deployment error reduction
-            and 99.9% uptime in production. Currently seeking SDE opportunities.
+            MS in Computer Science from University of Florida with research in machine learning (GANs, VAEs) and
+            geospatial data analysis. I specialize in React, TypeScript, Azure Functions, and .NET—delivering
+            30% deployment error reduction and 99.9% uptime in production.
           </p>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
             <a
