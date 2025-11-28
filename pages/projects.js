@@ -35,7 +35,7 @@ export default function Projects() {
             </p>
             <div className="flex mt-4 space-x-3 md:mt-6">
               <a
-                href="https://github.com/munisht06/code-review-agent"
+                href="https://github.com/munisht06/automated-code-review-agent"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white dark:text-gray-900 bg-teal-500 rounded-lg hover:bg-teal-600 focus:ring-4 focus:outline-none focus:ring-teal-300"
