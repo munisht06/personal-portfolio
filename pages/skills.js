@@ -14,6 +14,7 @@ export default function Skills() {
         { name: "Go", icon: "devicon:go" },
         { name: "Azure SQL", icon: "devicon:azuresqldatabase" }, // Using Azure icon as generic Azure SQL
         { name: "Cosmos DB", icon: "devicon:cosmosdb" },
+        { name: "MS SQL Server", icon: "devicon:microsoftsqlserver" },
         { name: "PostgreSQL", icon: "logos:postgresql" },
         { name: "MongoDB", icon: "logos:mongodb-icon" },
       ],
@@ -28,7 +29,7 @@ export default function Skills() {
         { name: "Kubernetes", icon: "logos:kubernetes" },
         { name: "Terraform", icon: "logos:terraform-icon" },
         { name: "Azure DevOps", icon: "devicon:azuredevops" },
-
+        { name: "OpenTelemetry", icon: "devicon:opentelemetry" },
         { name: "GitHub Actions", icon: "logos:github-actions" },
       ],
     },
@@ -48,6 +49,9 @@ export default function Skills() {
     {
       title: "AI & Data Science",
       skills: [
+      { name: "LLMs (OpenAI)", icon: "logos:openai-icon" }, // Updated Label
+        { name: "RAG", icon: "carbon:search-advanced", color: "#00C7B7" },
+        { name: "Azure AI", icon: "logos:microsoft-azure" },
         { name: "TensorFlow", icon: "logos:tensorflow" },
         { name: "Scikit-Learn", icon: "simple-icons:scikitlearn", color: "#F7931E" },
         { name: "Pandas", icon: "simple-icons:pandas", color: "#150458" },
