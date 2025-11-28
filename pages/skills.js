@@ -1,101 +1,100 @@
-import Image from "next/image";
-import code from "../public/code.png";
 import { Icon } from "@iconify/react";
 
-function Skills() {
-  return (
-    <>
-      <div className=" py-5 md:py-10">
-        <h3 className="text-3xl py-1 dark:text-white">Skills</h3>
-      </div>
-      <div className="p-4 relative overflow-hidden">
-        <ui className="flex relative flex-wrap justify-center max-w-1">
-          <li className="flex flex-col justify-center text-center align-middle m-4 dark:text-white hover:scale-110">
-            <Icon icon="logos:javascript" inline="false" width="90px" height="90px" /> JavaScript
-          </li>
-          <li className="flex flex-col justify-center text-center align-middle m-4 dark:text-white hover:scale-110">
-            <Icon icon="vscode-icons:file-type-typescript" inline="false" width="90px" height="90px" /> Typescript
-          </li>
-          
+export default function Skills() {
+  // Data structure for easy maintenance
+  const skillCategories = [
+    {
+      title: "Backend & Databases",
+      skills: [
+        { name: ".NET Core", icon: "logos:dotnet" },
+        { name: "C#", icon: "logos:c-sharp" },
+        { name: "MS SQL Server", icon: "logos:microsoft-sql-server" },
+        { name: "Java", icon: "logos:java" },
+        { name: "Python", icon: "logos:python" },
+        { name: "Node.js", icon: "logos:nodejs-icon" },
+        { name: "Go", icon: "logos:go" },
+        { name: "PostgreSQL", icon: "logos:postgresql" },
+        { name: "MongoDB", icon: "logos:mongodb-icon" },
+      ],
+    },
+    {
+      title: "Cloud & DevOps",
+      skills: [
+        { name: "Azure", icon: "logos:microsoft-azure" },
+        { name: "Azure SQL", icon: "logos:azure-icon" }, // Using Azure icon as generic Azure SQL
+        { name: "Cosmos DB", icon: "logos:azure-cosmos-db" },
+        { name: "AWS", icon: "logos:aws" },
+        { name: "Docker", icon: "logos:docker-icon" },
+        { name: "Kubernetes", icon: "logos:kubernetes" },
+        { name: "Terraform", icon: "logos:terraform-icon" },
+        { name: "GitHub Actions", icon: "logos:github-actions" },
+      ],
+    },
+    {
+      title: "Frontend & Mobile",
+      skills: [
+        { name: "React", icon: "logos:react" },
+        { name: "React Native", icon: "tabler:brand-react-native", color: "#61DAFB" }, // Specific React Native icon
+        { name: "TypeScript", icon: "logos:typescript-icon" },
+        { name: "JavaScript", icon: "logos:javascript" },
+        { name: "Next.js", icon: "logos:nextjs-icon" },
+        { name: "Figma", icon: "logos:figma" },
+        { name: "Tailwind CSS", icon: "logos:tailwindcss-icon" },
+        { name: "HTML5", icon: "vscode-icons:file-type-html" },
+      ],
+    },
+    {
+      title: "AI & Data Science",
+      skills: [
+        { name: "TensorFlow", icon: "logos:tensorflow" },
+        { name: "Scikit-Learn", icon: "simple-icons:scikitlearn", color: "#F7931E" },
+        { name: "Pandas", icon: "simple-icons:pandas", color: "#150458" },
+        { name: "NumPy", icon: "logos:numpy" },
+      ],
+    },
+  ];
 
-          <li className="flex flex-col justify-center text-center align-middle m-4 dark:text-white hover:scale-110">
-            <Icon icon="logos:python" inline="false" width="90px" height="90px" /> Python
-          </li>
-          <li className="flex flex-col justify-center text-center align-middle m-4 dark:text-white hover:scale-110">
-            <Icon icon="logos:java" inline="false" width="90px" height="90px" /> Java
-          </li>
-          <li className="flex flex-col justify-center text-center align-middle m-4 dark:text-white hover:scale-110">
-            <Icon icon="logos:dotnet" inline="false" width="90px" height="90px" /> .NET
-          </li>
-          <li className="flex flex-col justify-center text-center align-middle m-4 dark:text-white hover:scale-110">
-            <Icon icon="logos:go" inline="false" width="90px" height="90px" /> Go
-          </li>
-          <li className="flex flex-col justify-center text-center align-middle m-4 dark:text-white hover:scale-110">
-            <Icon icon="vscode-icons:file-type-erlang" inline="false" width="90px" height="90px" /> Erlang
-          </li>
-          <li className="flex flex-col justify-center text-center  align-middle m-4 dark:text-white hover:scale-110">
-            <Icon icon="vscode-icons:file-type-html" inline="false" width="90px" height="90px" /> HTML
-          </li>
-          <li className="flex flex-col justify-center text-center align-middle m-4 dark:text-white hover:scale-110">
-            <Icon icon="vscode-icons:file-type-css" inline="false" width="90px" height="90px" /> CSS
-          </li>
-          <li className="flex flex-col justify-center text-center align-middle m-4 dark:text-white hover:scale-110">
-            <Icon icon="logos:react" inline="false" width="90px" height="90px" /> React
-          </li>
-          <li className="flex flex-col justify-center text-center align-middle m-4 dark:text-white hover:scale-110">
-            <Icon icon="logos:nodejs-icon" inline="false" width="90px" height="90px" /> Node.js
-          </li>
-          <li className="flex flex-col justify-center text-center align-middle m-4 dark:text-white hover:scale-110">
-            <Icon icon="logos:tailwindcss-icon" inline="false" width="90px" height="90px" /> TailwindCSS
-          </li>
-          <li className="flex flex-col justify-center text-center align-middle m-4 dark:text-white hover:scale-110">
-            <Icon icon="logos:mongodb-icon" inline="false" width="90px" height="90px" /> MongoDB
-          </li>
-          <li className="flex flex-col justify-center text-center align-middle m-4 dark:text-white hover:scale-110">
-            <Icon icon="logos:mysql" inline="false" width="90px" height="90px" /> MySQL
-          </li>
-          <li className="flex flex-col justify-center text-center align-middle m-4 dark:text-white hover:scale-110">
-            <Icon icon="logos:git-icon" inline="false" width="90px" height="90px" /> Git
-          </li>
-          <li className="flex flex-col justify-center text-center align-middle m-4 dark:text-white hover:scale-110">
-            <Icon icon="logos:firebase" inline="false" width="90px" height="90px" /> Firebase
-          </li>
-          <li className="flex flex-col justify-center text-center align-middle m-4 dark:text-white hover:scale-110">
-            <Icon icon="logos:tensorflow" inline="false" width="90px" height="90px" /> TensorFlow
-          </li>
-          <li className="flex flex-col justify-center text-center align-middle m-4 dark:text-white hover:scale-110">
-            <Icon icon="logos:docker-icon" inline="false" width="90px" height="90px" /> Docker
-          </li>
-          <li className="flex flex-col justify-center text-center align-middle m-4 dark:text-white hover:scale-110">
-            <Icon icon="logos:kubernetes" inline="false" width="90px" height="90px" /> Kubernetes
-          </li>
-          <li className="flex flex-col justify-center text-center align-middle m-4 dark:text-white hover:scale-110">
-            <Icon icon="logos:terraform-icon" inline="false" width="90px" height="90px" /> Terraform
-          </li>
-          <li className="flex flex-col justify-center text-center align-middle m-4 dark:text-white hover:scale-110">
-            <Icon icon="logos:microsoft-azure" inline="false" width="90px" height="90px" /> Azure
-          </li>
-          <li className="flex flex-col justify-center text-center align-middle m-4  dark:text-white hover:scale-110">
-            <div className="bg-white rounded p-2">
-           <Icon icon="logos:aws" inline="false" width="80px" height="80px" />
-           </div> AWS
-          </li>
-          <li className="flex flex-col justify-center text-center align-middle m-4 dark:text-white hover:scale-110">
-            <Icon icon="logos:postgresql" inline="false" width="90px" height="90px" /> PostgreSQL
-          </li>
-          <li className="flex flex-col justify-center text-center align-middle m-4 dark:text-white hover:scale-110">
-            <Icon icon="simple-icons:scikitlearn" inline="false" width="90px" height="90px" color="#F7931E" /> Scikit-learn
-          </li>
-          <li className="flex flex-col justify-center text-center align-middle m-4 dark:text-white hover:scale-110">
-            <Icon icon="simple-icons:pandas" inline="false" width="90px" height="90px" color="#150458" /> Pandas
-          </li>
-          <li className="flex flex-col justify-center text-center align-middle m-4 dark:text-white hover:scale-110">
-            <Icon icon="logos:numpy" inline="false" width="90px" height="90px" /> NumPy
-          </li>
-        </ui>
+  return (
+    <section className="py-10 md:py-20" id="skills">
+      {/* Section Header */}
+      <div className="text-center mb-10 md:mb-16">
+        <h3 className="text-3xl md:text-5xl font-bold text-gray-800 dark:text-gray-100">
+          Technical <span className="text-teal-500">Skills</span>
+        </h3>
+        <p className="text-md py-2 text-gray-600 dark:text-gray-400 max-w-lg mx-auto">
+          A full-stack toolbelt with a focus on cloud-native architecture and high-performance systems.
+        </p>
       </div>
-    </>
+
+      {/* Skills Grid */}
+      <div className="max-w-6xl mx-auto px-5">
+        {skillCategories.map((category, index) => (
+          <div key={index} className="mb-12">
+            <h4 className="text-xl md:text-2xl font-bold text-gray-700 dark:text-gray-300 mb-6 border-l-4 border-teal-500 pl-4">
+              {category.title}
+            </h4>
+            
+            <div className="flex flex-wrap gap-6">
+              {category.skills.map((skill, skillIndex) => (
+                <div
+                  key={skillIndex}
+                  className="group flex flex-col items-center justify-center p-4 w-28 h-28 md:w-32 md:h-32 bg-white dark:bg-gray-800 rounded-xl shadow-md border border-gray-100 dark:border-gray-700 hover:border-teal-500 dark:hover:border-teal-500 hover:shadow-lg hover:-translate-y-1 transition-all duration-300 cursor-default"
+                >
+                  <div className="text-4xl md:text-5xl mb-3 grayscale group-hover:grayscale-0 transition-all duration-300">
+                    <Icon 
+                      icon={skill.icon} 
+                      color={skill.color || undefined}
+                    />
+                  </div>
+                  <span className="text-sm font-medium text-center text-gray-600 dark:text-gray-300 group-hover:text-teal-600 dark:group-hover:text-teal-400 transition-colors">
+                    {skill.name}
+                  </span>
+                </div>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
   );
 }
-
-export default Skills;
