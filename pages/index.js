@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Navbar from "./navbar.js";
 import Skills from "./skills.js";
 import Hero from "./hero.js";
 import Projects from "./projects.js";
@@ -7,22 +6,25 @@ import Contact from "./contact.js";
 import Footer from "./footer.js";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { BsFillSunFill } from "react-icons/bs";
-
-import { useState } from "react";
+import { useTheme } from "../contexts/ThemeContext";
 
 export default function Home() {
-  const [darkMode, setDarkMode] = useState(true);
+  const { darkMode, setDarkMode } = useTheme();
 
   return (
     <div className={darkMode ? "dark" : ""}>
       <Head>
-        <title>Munish Tanwar</title>
+        <title>Munish Tanwar - Software Engineer | Full-Stack Developer</title>
         <meta
           name="description"
-          content="I am Munish Tanwar, this is my website"
+          content="Software Engineer at Publix specializing in distributed systems, React, TypeScript, Azure, and .NET. MS in CS from University of Florida."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/Nfavicon.ico" />
+        <meta property="og:title" content="Munish Tanwar - Software Engineer" />
+        <meta property="og:description" content="Software Engineer specializing in cloud-native applications and distributed systems" />
+        <meta property="og:url" content="https://mtanwar.com" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="bg-white px-10 md:px-20 dark:bg-gray-900 lg:px-40">
         <section className="min-h-screen ">
@@ -41,9 +43,9 @@ export default function Home() {
               <li>
                 <a
                   className=" bg-gradient-to-r  from-teal-400 to-teal-500 hover:bg-gradient-to-l font-medium text-white dark:text-gray-900 px-4 py-2 rounded-md ml-8"
-                  href="Munish_Tanwar_Resume.pdf"
-                  target={"_blank"}
-                  rel="noreferrer"
+                  href="/Munish_Tanwar_Resume.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Resume
                 </a>

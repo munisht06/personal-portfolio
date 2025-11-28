@@ -67,12 +67,21 @@ function Skills() {
             <Icon icon="logos:docker-icon" inline="false" width="90px" height="90px" /> Docker
           </li>
           <li className="flex flex-col justify-center text-center align-middle m-4 dark:text-white hover:scale-110">
+            <Icon icon="logos:kubernetes" inline="false" width="90px" height="90px" /> Kubernetes
+          </li>
+          <li className="flex flex-col justify-center text-center align-middle m-4 dark:text-white hover:scale-110">
+            <Icon icon="logos:terraform-icon" inline="false" width="90px" height="90px" /> Terraform
+          </li>
+          <li className="flex flex-col justify-center text-center align-middle m-4 dark:text-white hover:scale-110">
             <Icon icon="logos:microsoft-azure" inline="false" width="90px" height="90px" /> Azure
           </li>
           <li className="flex flex-col justify-center text-center align-middle m-4  dark:text-white hover:scale-110">
             <div className="bg-white rounded p-2">
            <Icon icon="logos:aws" inline="false" width="80px" height="80px" />
            </div> AWS
+          </li>
+          <li className="flex flex-col justify-center text-center align-middle m-4 dark:text-white hover:scale-110">
+            <Icon icon="logos:postgresql" inline="false" width="90px" height="90px" /> PostgreSQL
           </li>
         </ui>
       </div>
